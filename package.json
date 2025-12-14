@@ -1,0 +1,28 @@
+{
+  "name": "login-page",
+  "version": "1.0.0",
+  "description": "User Login page where we will be having registration page too for first time users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm i express nodemon dotenv mongoose",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAIDINESH2001/login-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAIDINESH2001/login-page/issues"
+  },
+  "homepage": "https://github.com/SAIDINESH2001/login-page#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
+  }
+}
